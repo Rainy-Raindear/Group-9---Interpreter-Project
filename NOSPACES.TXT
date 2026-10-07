@@ -1,0 +1,15 @@
+output<<"HLInterpreterDemo";
+x:integer;
+y:double;
+x:=3+2;
+y=4+2.56;
+output<<"Integerresult";
+output<<x;
+output<<"Doubleresult";
+output<<y;
+If(x==5)
+Output<<"Theconditionistrue";
+if(y<2)
+output<<"Thisshouldnotprint";
+x:=x-1;
+output<<x;

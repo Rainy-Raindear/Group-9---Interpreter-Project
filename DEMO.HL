@@ -1,0 +1,15 @@
+output<<"HL Interpreter Demo";
+x:integer;
+y:double;
+x:=3+2;
+y=4+2.56;
+output<<"Integer result";
+output<<x;
+output<<"Double result";
+output<<y;
+If(x==5)
+  Output<<"The condition is true";
+if(y<2)
+  output<<"This should not print";
+x:=x-1;
+output<<x;
